@@ -1,0 +1,71 @@
+:root{
+  --main-color:#0D0D0D
+}
+body{
+  background-color: var(--main-color);
+}
+ /* themes */
+.color-pallet{
+  width: 16rem;
+  height: 100vh;
+  z-index: 1040;
+  background-color: var(--main-color);
+}
+.color-icon {
+width: 4rem;
+}
+
+.color-icon i{
+  color:var(--main-color);
+}
+.nav-tab li{
+  cursor: pointer;
+}
+.nav-para{
+  font-size: 16px;
+}
+.color-switter{
+  left: -16rem;
+}
+input::placeholder {
+  color: #ced4da !important; /* Change this to your desired color */
+  opacity: 1; /* Optional: This makes sure the color is fully opaque */
+  }
+
+  
+
+  /* catogery */
+  .item{
+    overflow: hidden;
+  }
+ .catogery-cap{
+  top:100%;
+    background-color: #f9f6f6ca;
+    position:absolute
+ }
+ .meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: .5s;
+}
+.loader {
+  width: 4rem;
+  height: 4rem;
+  border: 10px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
